@@ -13,7 +13,15 @@ public class riddler {
 		} else {
 			JOptionPane.showMessageDialog(null, "wrong, the correct answer is actually nothing");
 		}
-	}}{
+		String riddle2 = JOptionPane.showInputDialog(
+				"What occurs once in every minute, twice in every moment, yet never in a thousand years? ");
+		
+		if (riddle2.equalsIgnoreCase("The letter m")) {
+			JOptionPane.showMessageDialog(null, "correct");
+			score++;
+			JOptionPane.showMessageDialog(null, "Your score is now " + score);
 
-	String riddle = JOptionPane.showInputDialog(
-}"A doctor and a bus driver are both in love with the same woman, an attractive girl named Sarah. The bus driver had to go on a long bustrip that would last a week. Before he left, he gave Sarah seven apples. Why?");if(riddle.equals("An apple a day, keeps the doctors away! "));
+		} else {
+			JOptionPane.showMessageDialog(null, "wrong, the correct answer is actually the letter m");
+		}
+	}}
